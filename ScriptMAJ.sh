@@ -6,28 +6,28 @@
 # Language : BASH
 # Date : 28 /02/2020
 
-# Début du script
-echo ""
-echo "--------------------------------------"
-echo "Script de mise à jour du system Debian"
-echo "--------------------------------------"
-echo ""
-# Demande à l'utilisateur s'il souhaite mettre à jour Debian
-read -p "Initialiser le scipt de mise à jour ? (o/n) " reponse
-# Si "o" alors execution commande apt-get update & upgrade
+# Initialisation du script
+echo "-----------------------------------------------"
+echo "Script de mise à jour du système Debian"
+echo "-----------------------------------------------"
+
+# Demande au user si il souhaite mettre à jour Debian
+read -p "Initialiser le script de mise à jour ? (o/n) " reponse
+
+# Si oui lancement commande apt-get
 if [ "$reponse" = "o" ]
 then
-        echo ""
-        echo "----------------------------------"
-        echo "Initialisation des mises a jours !"
-        echo "----------------------------------"
-        echo ""
+        echo "------------------------------------"
+        echo "Initialisation des mises a jours"
+        echo "------------------------------------"
         apt-get update && apt-get upgrade -y
+        echo "------------------------------------"
+        echo "Fin de la mise a jour"
+        echo "------------------------------------"
+
 # Sinon sortir du script
 else
-        echo ""
-        echo "-------------------"
+        echo "-----------------------"
         echo "Fermeture du script"
-        echo "-------------------"
-        echo ""
+        echo "-----------------------"
 fi
