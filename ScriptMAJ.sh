@@ -4,7 +4,7 @@
 # Réalisation : Adrien CROS
 # OS : Linux - Debian
 # Language : BASH
-# Date : 28 /02/2020
+# Date : 28/02/2020
 
 # Initialisation du script
 echo "-----------------------------------------------"
