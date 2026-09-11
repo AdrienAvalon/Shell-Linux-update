@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="title desc">
+  <title id="title">Shell-Linux-update</title>
+  <desc id="desc">EXERCICE BASH. Une confirmation. Une mise à jour Debian. Illustration éditoriale du projet.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#101c2e"/><stop offset="1" stop-color="#192940"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1120" height="280" rx="18" fill="url(#background)"/>
+  <rect width="1120" height="280" rx="18" fill="url(#grid)"/>
+  <path d="M48 62H92" stroke="#ff99af" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="94" fill="#ff99af" font-size="13" font-weight="700" letter-spacing="2.4">EXERCICE BASH</text>
+    <text x="46" y="151" fill="#f5f7fc" font-size="42" font-weight="700" letter-spacing="-1.2">Shell-Linux-update</text>
+    <text x="48" y="190" fill="#a9b7ca" font-size="18">Une confirmation. Une mise à jour Debian.</text>
+    <text x="48" y="244" fill="#94a6bf" font-size="11" letter-spacing="2">AVALON · CODE &amp; EXPLORATION</text>
+  </g>
+  <g transform="translate(760 38)" font-family="Arial, Helvetica, sans-serif">
+    <rect width="308" height="204" rx="12" fill="#111e31" stroke="#304159"/>
+    <text x="20" y="34" fill="#a9b7ca" font-size="12" letter-spacing="1">FLUX DU SCRIPT</text>
+    <rect x="20" y="51" width="268" height="36" rx="7" fill="#223248"/>
+    <text x="34" y="75" fill="#ff99af" font-family="monospace" font-size="16">Confirmer : o / n</text>
+    <path d="M39 87V116M39 149V172" stroke="#ff99af" stroke-width="2"/>
+    <text x="57" y="125" fill="#edf2fa" font-family="monospace" font-size="15">apt-get update</text>
+    <text x="57" y="176" fill="#edf2fa" font-family="monospace" font-size="15">apt-get upgrade -y</text>
+    <circle cx="39" cy="121" r="5" fill="#ff99af"/><circle cx="39" cy="172" r="5" fill="#ff99af"/>
+  </g>
+</svg>

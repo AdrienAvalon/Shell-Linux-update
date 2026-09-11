@@ -1,17 +1,24 @@
 <div align="center">
 
+<img src="docs/assets/readme-hero.svg" alt="Shell-Linux-update — confirmer puis lancer une mise à jour Debian" width="960">
+
 # Shell-Linux-update
 
-**Lancer une mise à jour Debian depuis un court dialogue Bash.**
+**Comprendre une mise à jour Debian à travers un court dialogue Bash.**
 
-Une confirmation, puis les commandes APT usuelles dans un script facile à lire.
+Un script d’apprentissage facile à parcourir : confirmation, actualisation
+de l’index APT, puis mise à jour des paquets.
 
-[Utilisation](#utilisation) · [Fonctionnement](#ce-que-fait-le-script) · [Source](ScriptMAJ.sh)
+[![Bash](https://img.shields.io/badge/Bash-script-4eaa25?style=flat-square&logo=gnubash&logoColor=white)](ScriptMAJ.sh)
+[![Debian](https://img.shields.io/badge/cible-Debian-a81d33?style=flat-square&logo=debian&logoColor=white)](ScriptMAJ.sh)
+[![Mode interactif](https://img.shields.io/badge/mode-interactif-e99b63?style=flat-square)](#ce-que-fait-le-script)
 
-[![Bash](https://img.shields.io/badge/Bash-script-4eaa25)](ScriptMAJ.sh)
-[![Debian](https://img.shields.io/badge/cible-Debian-a81d33)](ScriptMAJ.sh)
+[Fonctionnement](#ce-que-fait-le-script) · [Utilisation](#utilisation) · [Limites](#portée-du-projet) · [Source](ScriptMAJ.sh)
 
 </div>
+
+Les exemples d’utilisation ci-dessous s’adressent aux personnes disposant des
+autorisations nécessaires. [Droits et conditions de réutilisation](RIGHTS.md).
 
 ## Ce que fait le script
 
@@ -56,5 +63,6 @@ automatisée à partir de son seul code de retour.
 
 Les corrections peuvent être proposées dans les
 [issues](https://github.com/AdrienAvalon/Shell-Linux-update/issues) ou par pull
-request. Aucune licence explicite n'est fournie dans le dépôt ; contactez
-l'auteur pour les conditions de réutilisation.
+request. Les contributions originales non déjà licenciées restent à
+[droits réservés](RIGHTS.md). Réutilisation et exploitation commerciale nécessitent
+un accord écrit préalable ; la rémunération commerciale est convenue dans cet accord.
